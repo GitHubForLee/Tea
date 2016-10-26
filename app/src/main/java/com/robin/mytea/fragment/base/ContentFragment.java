@@ -176,7 +176,9 @@ public class ContentFragment extends BaseListFragment implements
 
 						@Override
 						public void onPageSelected(int arg0) {
+
 							radioGroup_fragment.getChildAt(arg0).performClick();
+							//performClick 调用点击事件
 						}
 
 						@Override
